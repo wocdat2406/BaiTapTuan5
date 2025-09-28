@@ -22,11 +22,96 @@
                 <li class="bi bi-bell-fill me-3 mt-2" style="color: white;"></li>
                 <li class="bi bi-cart-fill me-3 mt-2" style="color: white;"></li>
                 <li class="bi bi-search me-3 mt-2" style="color: white;"></li>
-                <button type="button" class="btn btn-warning mb-3" data-bs-toggle="modal" data-bs-target="#ordermodal" style="border-radius: 40px; height: 40px; width: 120px; color: white;">Order Online</button>
+                <button type="button" class="btn btn-warning mb-3" data-bs-toggle="modal" data-bs-target="#ordermodal" style="border-radius: 40px; height: 40px; width: 120px; color: white;">Order Now</button>
             </ul>
         </div>
+        <div class="row">
+            <div class="row">
+                <h1 class="text-center mt-5 mb-5">Our Menu</h1>
+            </div>
+            <div class="row justify-content-center mb-5">
+                <button type="button" class="btn btn-outline-dark me-3" style="width: 80px; border-radius: 30px;">All</button>
+                <button type="button" class="btn btn-outline-dark me-3" style="width: 80px; border-radius: 30px;">Burger</button>
+                <button type="button" class="btn btn-outline-dark me-3" style="width: 80px; border-radius: 30px;">Pizza</button>
+                <button type="button" class="btn btn-outline-dark me-3" style="width: 80px; border-radius: 30px;">Pasta</button>
+                <button type="button" class="btn btn-outline-dark me-3" style="width: 80px; border-radius: 30px;">Fries</button>
+            </div>
+            <div class="row" style="margin-left: 75px;">
+                <div class="col-4 bg-dark mt-4 me-4" style="height: 300px; width: 300px; border-radius: 10px;">
+                    <div class="row bg-light" style="width: 300px; border-radius: 0px 0px 0px 30px;">
+                        <img src="../img/f1.png" alt="" style="width: 200px;height: 150px; margin-left: 50px;">
+                    </div>
+                    <div class="row">
+                        <h3 class="text-white">
+                            Delicious Pizza
+                        </h3>
+                        <p class="text-white" style="font-size:smaller;">
+                            Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                        </p>
+                        <h5 class="text-white">
+                            $21
+                            <span type="button" class="bi bi-cart-fill" style=" color: rgb(255, 255, 255); padding-left: 200px; border-radius: 50px;"></span>                        
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-4 bg-dark mt-4 me-4" style="height: 300px; width: 300px; border-radius: 10px;">
+                    <div class="row bg-light" style="width: 300px; border-radius: 0px 0px 0px 30px;">
+                        <img src="../img/f2.png" alt="" style="width: 200px;height: 150px; margin-left: 50px;">
+                    </div>
+                    <div class="row">
+                        <h3 class="text-white">
+                            Delicious Burger
+                        </h3>
+                        <p class="text-white" style="font-size:smaller;">
+                            Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                        </p>
+                        <h5 class="text-white">
+                            $15
+                            <span type="button" class="bi bi-cart-fill" style=" color: rgb(255, 255, 255); padding-left: 200px; border-radius: 50px;"></span>                        
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-4 bg-dark mt-4" style="height: 300px; width: 300px; border-radius: 10px;">
+                    <div class="row bg-light" style="width: 300px; border-radius: 0px 0px 0px 30px;">
+                        <img src="../img/f3.png" alt="" style="width: 200px;height: 150px; margin-left: 50px;">
+                    </div>
+                    <div class="row">
+                        <h3 class="text-white">
+                            Delicious Pizza
+                        </h3>
+                        <p class="text-white" style="font-size:smaller;">
+                            Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                        </p>
+                        <h5 class="text-white">
+                            $17
+                            <span type="button" class="bi bi-cart-fill" style=" color: rgb(255, 255, 255); padding-left: 200px; border-radius: 50px;"></span>                        
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    
+    <div class="modal" id="ordermodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="text-warning">Order</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <label for="">Telephone</label> <br>
+                    <input type="text" class="w-100"> <br>
+                    <label for="">Email</label> <br>
+                    <input type="email" class="w-100"> <br>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Check me out</label>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="text-dark btn btn-warning" style="border-radius: 20px; width: 80px;">Order</button>
+                    <button type="button" class="text-dark btn btn-warning" data-bs-dismiss="modal" style="border-radius: 20px; width: 80px;">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
