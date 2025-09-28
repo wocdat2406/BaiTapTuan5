@@ -31,6 +31,41 @@
                 <button type="button" class="btn btn-warning mb-3" data-bs-toggle="modal" data-bs-target="#ordermodal" style="border-radius: 40px; height: 40px; width: 120px; color: white;">Order Online</button>
             </ul>
         </div>
+        <div class="row">
+            <div style="margin-left: 100px;">
+                <h1 class="mt-5 mb-5" style="color: white; position: absolute; font-style: italic; font-family: inherit;">
+                    Fast Food Restaurant
+                </h1>
+                <p class="text-white" style="margin-top: 100px; width: 500px; font-size: smaller;">
+                    Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                </p>
+                <button type="button" class="btn btn-warning mb-3" data-bs-toggle="modal" data-bs-target="#ordermodal" style="border-radius: 40px; height: 40px; width: 120px; color: white;">Order Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="ordermodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="text-warning">Order</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <label for="">Telephone</label> <br>
+                    <input type="text" class="w-100"> <br>
+                    <label for="">Email</label> <br>
+                    <input type="email" class="w-100"> <br>
+                    <input type="checkbox" name="" id="">
+
+                    <label for="">Check me out</label>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="text-dark btn btn-warning" style="border-radius: 20px; width: 80px;">Order</button>
+                    <button type="button" class="text-dark btn btn-warning" data-bs-dismiss="modal" style="border-radius: 20px; width: 80px;">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
